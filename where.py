@@ -400,7 +400,7 @@ if __name__ == "__main__":
             text_color(
                 f"There is no country better than {YOUR_COUNTRY}.",
                 text_type.ANSWER,
-            ),
+            )
         )
     else:
         with pd.option_context("display.max_rows", None, "display.max_columns", None):
